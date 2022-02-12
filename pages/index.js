@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Paytungan By <a href="https://nextjs.org">Next.js!</a>
+          Paytungan Ubul Ubul By <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
         <p className={styles.description}>
