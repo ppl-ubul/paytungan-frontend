@@ -31,7 +31,6 @@ const Splashscreen = () => {
         animate={"animate"}
         variants={overlayAnimation}
         transition={{ duration: 0.6, delay: 0 }}
-        // onTransitionEnd= {{ display: "none"}}
       />
       <motion.div
         tw="flex items-center justify-center h-screen w-screen fixed shadow-xl bg-white"
@@ -43,7 +42,6 @@ const Splashscreen = () => {
         animate={"animate"}
         variants={splashAnimation}
         transition={{ duration: 0.6, delay: 0 }}
-        // onTransitionEnd= {{ display: "none"}}
       >
         <img src="/images/logo/logo.png" alt="" />
       </motion.div>

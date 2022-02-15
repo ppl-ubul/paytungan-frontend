@@ -1,34 +1,109 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <h3 align="center">Paytungan Frontend</h3>
+
+  <p align="center">
+    Web Platform App for Paytungan
+    <br />
+    <br />
+    <a href="https://paytungan.vercel.app">Live Site</a>
+  </p>
+</p>
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+  </ol>
+</details>
+
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
+
+Web Application Repo for Paytungan
+
+### Built With
+
+-   [Next JS Framework](https://nextjs.org/)
+-   [Twin Macro Css in Js](https://github.com/ben-rogerson/twin.macro)
+-   [Tailwind CSS](https://tailwindcss.com/)
+-   [Framer Motion Animation](https://www.framer.com/motion/)
+-   [Vercel](https://vercel.com/)
+
+<!-- GETTING STARTED -->
 
 ## Getting Started
 
-First, run the development server:
+### Installation
 
-```bash
+1. Clone the repo
+    ```sh
+    git clone https://github.com/ppl-ubul/paytungan-frontend.git
+    ```
+2. Check you have node js min. version v16.14.0, to check :
+    ```sh
+    node --version
+    ```
+    To update node js version download on (choose lts version)
+    ```link
+    https://nodejs.org/en/
+    ```
+3. Check you have npm version min. version 8.5.0
+    ```sh
+    npm --version
+    ```
+    To update npm version :
+    ```sh
+    npm install npm@latest -g
+    ```
+4. Install node modules depencies, go to file inside repository then
+    ```sh
+    npm install
+    ```
+    make sure there is ```node_modules``` folder in repo. 
+    
+    NOTE : rerun ```npm install``` when there is new changes in ```package.json``` to update library dependencies on your local computer
+
+<!-- USAGE EXAMPLES -->
+
+## Usage
+
+### Run development server
+Start development server
+```sh
 npm run dev
-# or
-yarn dev
+```
+then open
+```sh
+http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contributing
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Create Branch Using your name,
+<br/>
+example : `advis/create_landing_page`
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Clone the Project
+2. Create your Feature Branch (`git checkout -b name/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin name/AmazingFeature`)
+5. Open a Pull Request

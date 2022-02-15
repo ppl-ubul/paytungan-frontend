@@ -10,8 +10,11 @@ const Navbar = () => {
         z-index: 100;
       `}
     >
-      <div tw="flex items-center justify-center h-full">
-        <h1>Ceritanya Component Navbar</h1>
+      <div tw="flex items-center justify-evenly h-full">
+        <h1>Home</h1>
+        <h1>Help Center</h1>
+        <h1>History</h1>
+        <h1>Profile</h1>
       </div>
     </div>
   )
