@@ -7,12 +7,13 @@ import Head from "next/head"
 
 export default function Home() {
   return (
-    <>
+    <div tw="overflow-x-hidden relative">
       <Head>
         <title>Paytungan - Easiest Split Bill App</title>
         <meta name="description" content="Paytungan Split Bill App" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Navbar />
       <Splashscreen />
       <div
         css={css`
@@ -23,7 +24,7 @@ export default function Home() {
         `}
       >
         <motion.h1
-          tw="text-3xl"
+          tw="text-3xl text-center"
           initial={"initial"}
           animate={"animate"}
           variants={headerAnimation}
@@ -32,7 +33,25 @@ export default function Home() {
           Paytungan : The Easiest Split Bill Aplication Ever
         </motion.h1>
       </div>
-      <Navbar />
-    </>
+
+      <div
+        css={css`
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        `}
+      >
+        <motion.h1
+          tw="text-3xl text-center"
+          initial={"initial"}
+          animate={"animate"}
+          variants={headerAnimation}
+          transition={{ duration: 2, ease: "easeOut", delay: 1.2 }}
+        >
+          Section 2
+        </motion.h1>
+      </div>
+    </div>
   )
 }
