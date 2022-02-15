@@ -30,7 +30,7 @@ export default function Home() {
           variants={headerAnimation}
           transition={{ duration: 2, ease: "easeOut", delay: 1.2 }}
         >
-          Paytungan : The Easiest Split Bill Aplication Ever
+          Paytungan : The Easiest Split Bill Application Ever
         </motion.h1>
       </div>
 
